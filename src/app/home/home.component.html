@@ -1,0 +1,11 @@
+<div class="row carousel-holder">
+    <div class="col-md-12">
+          <app-carousel> Loading Carousel.. </app-carousel>
+    </div>
+</div>
+          
+<div class="row">
+   <div *ngFor="let prod of products" class="col-sm-4 col-lg-4 col-md-4">
+       <app-product-item [product]="prod"> Loading app-product-item.. </app-product-item>
+   </div>
+</div>
