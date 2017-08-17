@@ -20,7 +20,7 @@ import { HomeComponent } from './home/home.component';
     BrowserModule,
     RouterModule.forRoot([
       {path:'', component: HomeComponent},
-      {path:'product/:prodTitle', component: ProductDetailComponent}
+      {path:'product/:productId', component: ProductDetailComponent}
     ])
   ],
   declarations: [
